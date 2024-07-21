@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+
+    <!--Adding link for my style css-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--adding link for google style fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--adding link for font awsome icons-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Mens Collections</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="show_navbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="close_navbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <!--Collections-->
+    <div class="collections">
+        <form class="collections-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="collections-section" id="collections-section">
+            <div class="collections-container">
+                <img src="image/shirt6.jpeg" width="200px" height="200px" alt="No image">
+                <p>White Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="collections-container">
+                <img src="image/shirt7.jpeg" width="200px" height="200px" alt="No image">
+                <p>White/black Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="collections-container">
+                <img src="image/shirt8.jpeg" width="200px" height="200px" alt="No image">
+                <p>Green Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="collections-container">
+                <img src="image/shirt9.jpeg" width="200px" height="200px" alt="No image">
+                <p>Dark Green Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="collections-container">
+                <img src="image/shirt1.jpeg" width="200px" height="200px" alt="No image">
+                <p>Black Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="collections-container">
+                <img src="image/shirt2.jpeg" width="200px" height="200px" alt="No image">
+                <p>Sky Blue Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="collections-container">
+                <img src="image/shirt3.jpeg" width="200px" height="200px" alt="No image">
+                <p>Grey Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="collections-container">
+                <img src="image/shirt4.jpeg" width="200px" height="200px" alt="No image">
+                <p>Blue Shirt</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2>Mens Collections</h2>
+                <p>We Belive Something Make You Happy <i class="fa-solid fa-face-smile"></i></p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 MensCollections.com</p>
+    </div>
+
+    <script src="collections.js"></script>
+</body>
+
+</html>
